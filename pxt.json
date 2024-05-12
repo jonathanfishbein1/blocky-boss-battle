@@ -2,12 +2,16 @@
     "name": "Blocky Boss Battle",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-arcade-display-strings": "github:robo-technical-group/pxt-arcade-display-strings#v1.0.5",
+        "arcade-browser": "github:pelikhan/arcade-browser#v0.0.4"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
